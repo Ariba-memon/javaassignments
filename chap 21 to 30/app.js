@@ -4,6 +4,7 @@ var userInput = prompt("Write a word");
 alert("User Input: " + userInput + "\n" + "Upper case: " + userInput.toUpperCase());
 // 2. Write a program that takes user input. Convert and show the
 // input in title case.
+
 var userInput = prompt("Write a word");
 var firstWord = userInput.slice(0,1);
 var remWords = userInput.slice(1);
